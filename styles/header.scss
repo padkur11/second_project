@@ -1,0 +1,46 @@
+.header{
+  margin: auto 24px;
+  &__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    min-height: 64px;
+
+    background-color: #fff;
+    &__logo{
+      flex-grow: 1;
+
+      height: 35px;
+      background: url("../images/Frame1.png") no-repeat left;
+      }
+    &__menu{
+      display: flex;
+      justify-content: space-between;
+      flex-grow: 1;
+      &__link{
+        font-weight: normal;
+        font-size: 18px;
+        text-decoration: none;
+
+        color: #000;
+      }
+    }
+    &__form{
+      display: flex;
+      justify-content: flex-end;
+      flex-grow: 2;
+      &__button{
+        &__log-in{
+          height: 48px;
+          background: none;
+        }
+        &__sing-up{
+          height: 48px;
+          background-color: #00C805;
+        }
+      }
+    }
+  }
+}

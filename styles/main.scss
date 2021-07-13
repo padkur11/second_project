@@ -1,0 +1,30 @@
+@import "normalize.scss";
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+@import "header.scss";
+@import "content.scss";
+@import "about.scss";
+@import "shares.scss";
+@import "slider.scss";
+@import "product.scss";
+@import "footer.scss";
+
+.log-info{
+  font-weight: bold;
+  font-size: 24px;
+
+  padding-right: 14px;
+}
+
+.form-button{
+  width: 144px;
+
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: capitalize;
+
+  border: none;
+  border-radius: 24px;
+}

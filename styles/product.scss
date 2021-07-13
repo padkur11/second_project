@@ -1,0 +1,103 @@
+.product{
+  background: #F0EBE6;
+  &__container{
+    display: flex;
+    flex-direction: column;
+
+    padding: 75px 120px;
+    &__content{
+      display: flex;
+      &__menu,
+      &__image{
+        flex-basis: 50%;
+      }
+      &__menu{
+        display: flex;
+        flex-direction: column;
+        &__title{
+          font-weight: normal;
+          font-size: 31px;
+          line-height: 40px;
+          letter-spacing: 0.32px;
+
+          color: #000000;
+        }
+        &__links{
+          display: flex;
+          justify-content: space-between;
+
+          padding-top: 25px;
+          padding-bottom: 75px;
+          &__link{
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 36px;
+            letter-spacing: 0.24px;
+
+            text-decoration: none;
+
+            color: #6F787E;
+          }
+          //&__space{
+          //  content: "";
+          //  display: block;
+          //  height: 36px;
+          //  width: 1px;
+          //
+          //  background-color: #000;
+          //}
+          &__another-link{
+            color: #FF90AF;
+          }
+        }
+        &__text{
+          flex-grow: 1;
+
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 28px;
+          letter-spacing: 0.25px;
+
+          width: 50%;
+
+          color: #000000;
+        }
+        &__form{
+          margin-bottom: 124px;
+          &__button{
+            color: #FFFFFF;
+
+            height: 28px;
+            background-color: #000;
+          }
+        }
+      }
+      &__image{
+        display: flex;
+        justify-content: flex-end;
+        &__img{}
+      }
+    }
+    &__about{
+      display: flex;
+      justify-content: space-between;
+      &__title{
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 28px;
+        letter-spacing: 0.25px;
+
+        color: #6F787E;
+        &__log-info{}
+      }
+      &__subtitle{
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+
+        color: #000000;
+      }
+    }
+  }
+}
